@@ -1,0 +1,98 @@
+.cont{
+    width: 100%;
+    height: auto;
+    background-color: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+h5{
+    margin-top: .5em;
+    margin-bottom: 1em;
+
+}
+
+.pic{
+    width: 15em;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-top: 7em;
+
+}
+
+.info{
+    width: 17em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cont a {
+    background-image: url('/src/images/pdfLogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgb(226, 221, 221);
+    width: 45%;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    padding-right: 1em;
+    border: 2px solid red;
+    opacity: .8;
+    font-weight: 500;
+    margin-bottom: 2.9em;
+}
+
+.cont a:hover{
+    opacity: 1;
+    font-weight: 700;
+}
+
+.cont h4{
+    margin-top: 2em;
+    margin-bottom: .7em;
+}
+.cont a img {
+    object-fit: contain;
+    width: 10%;
+    opacity: .7;
+}
+
+
+.icons{
+    width:90%;
+    margin-bottom: 1em;
+    max-width: 30em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.icons img{
+    width:2em;
+    opacity: .8;
+    margin-bottom: 2em;
+}
+
+.icons img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+.icons i{
+    font-size: 3em;
+    height:1em;
+    opacity: .8;
+}
+
+.icons i:hover{
+    opacity: 1;
+    cursor: pointer;
+}

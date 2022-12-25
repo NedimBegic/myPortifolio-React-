@@ -1,0 +1,17 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+
+@media (min-width:560px) {
+    .main{
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+}
