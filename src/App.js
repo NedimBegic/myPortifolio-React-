@@ -6,12 +6,14 @@ import AboutMe from './Components/AboutMe';
 import Footer from './Components/Footer';
 import styles from './App.module.css';
 import Connect from './Components/Connect';
+import Work from './Components/Work';
 
 const App = props => {
   return (
     <Main>
       <Card className={styles.card}>
         <AboutMe />
+        <Work />
         <Connect />
       </Card >
       <Footer className={styles.footer} />

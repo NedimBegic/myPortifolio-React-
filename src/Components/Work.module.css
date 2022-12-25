@@ -1,0 +1,6 @@
+.frag{
+    height:auto;
+    width:100%;
+    border-bottom: 3px solid black;
+    display:flex;
+}
