@@ -3,6 +3,7 @@ import profile from '../images/profil.JPG';
 import style from './AboutMe.module.css';
 import aboutMe from '../files/Aboutme.pdf';
 import resume from '../files/resume.pdf';
+import postman from '../images/postman.png';
 
 const AboutMe = props => {
 
@@ -21,6 +22,7 @@ const AboutMe = props => {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+            <img src={postman} alt=""/>
             </div>
             <h4>Basic knowledge:</h4>
             <div className={style.icons}>

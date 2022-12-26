@@ -3,4 +3,45 @@
     width:100%;
     border-bottom: 3px solid black;
     display:flex;
+    position:relative;
+}
+
+button{
+    width:3em;
+    height:3em;
+    position:absolute;
+    z-index: 1;
+    top:50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    text-align: center;
+    border: none;
+    font-weight: bolder;
+    opacity: .7;
+    background-color: black;
+    color: white;
+
+}
+
+button:hover{
+    opacity: 1;
+}
+
+.rightButton{
+    right:0;
+}
+
+@media (min-width:1070px) {
+    button{
+        width:5em;
+        height:5em;
+    }
+
+    .leftButton{
+        left:6em;
+    }
+
+    .rightButton{
+        right:6em;
+    }
 }

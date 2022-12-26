@@ -1,20 +1,33 @@
 import React from 'react';
-import logo from '../images/bugCover.png';
 import style from './Item.module.css';
 
 const Item = props => {
+    // the index of the list
+    const i = props.i;
 
     return (
         <div className={style.item}>
             <h2>My Work</h2>
-            <h4>{props.list[0].name}</h4>
-            <img src={logo} alt=""/>
-            <div className={style.links}>
-                <a href='#'>Link</a>
-                <a href="#">Code</a>
+            <h4>{props.list[i].name}</h4>
+            <div className={style.pageImg}>
+                <img src={props.list[i].img} alt="" />
             </div>
-            <span>(Note: This page is not mobile responsive.)</span>
-            <p>This project is made because I wanted to practic some react. Is vako it is nako and bal bal lba . You can see more detail on github.</p>
+            <div className={style.links}>
+                <a href={props.list[i].link} target='_blank'>Link</a>
+                <a href={props.list[i].code} target='_blank'>Code</a>
+            </div>
+            <div className={style.icons}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                <img style={{ display: `${props.list[i].js}` }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <img style={{ display: `${props.list[i].react}` }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                <img style={{ display: `${props.list[i].bs}` }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                <img style={{ display: `${props.list[i].node}` }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                <i style={{ display: `${props.list[i].ex}` }} className="devicon-express-original-wordmark"></i>
+                <img style={{ display: `${props.list[i].md}` }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+            </div>
+            <span style={{ display: `${props.list[i].span}` }}>(This page is not mobile responsive.)</span>
+            <p>{props.list[i].desc} (more on github)</p>
         </div>
     )
 };

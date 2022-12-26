@@ -11,9 +11,9 @@ body {
 
 #root{
   height: auto;
-  background: rgb(9, 8, 8);
+  background: rgb(31, 29, 29);
   background-image: url('images/bugCover.png');
-  background-size: 200%;
+  background-size: 90%;
   background-repeat: no-repeat;
   background-position: center;
   color: white;
@@ -24,5 +24,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (min-width:1070px) {
+  #root{
+    background-size: 40%;
+  }
 }
 
