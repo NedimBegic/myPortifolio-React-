@@ -32,7 +32,7 @@ h5{
     justify-content: space-evenly;
 }
 
-.cont a {
+.files {
     background-image: url('/src/images/pdfLogo.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -102,4 +102,76 @@ h5{
 .icons i:hover{
     opacity: 1;
     cursor: pointer;
+}
+
+.coding{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+
+.code{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    max-width: 50em;
+    height:7em;
+    margin-bottom: 2em;
+}
+
+.code a{
+    opacity: .8em;
+    width:8em;
+    margin: .3em;
+    
+}
+
+.code a:hover{
+    opacity: 1;
+}
+
+.code a>img {
+    width:8em;
+    height:2em;
+    object-fit: fill;
+    opacity: .9;
+    border: 1px solid white;
+}
+
+.code a>img:hover{
+    opacity: 1;
+}
+
+
+@media (min-width:450px) {
+    .code a{
+        margin-right: 1em;
+    }
+}
+
+@media (min-width:1300px) {
+    .icons img{
+        font-size: 1.5em;
+    }
+
+    .code a{
+        width:10em;
+        height: 3em;
+        margin-right: 2em;
+
+    }
+
+    .code a>img{
+        width: 10em;
+        height:3em;
+        opacity: .8;
+    }
+
+   .code{
+    flex-direction: row;
+   }
+
 }

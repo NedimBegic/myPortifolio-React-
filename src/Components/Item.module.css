@@ -16,7 +16,7 @@
 
 .pageImg{
     width:80%;
-    height:47%;
+    height:15em;
     margin-top: 0em;
     border-radius: 10px;
     background: rgb(0, 0, 0,1);
@@ -26,6 +26,7 @@
     width:100%;
     height: 100%;
     border-radius: 10px;
+    border: 1px solid white;
 }
 
 .links{
@@ -35,7 +36,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: .3em;
+    margin-top: .6em;
+    margin-bottom: .5em;
 
 }
 
@@ -44,7 +46,7 @@
     width:35%;
     max-width: 9em;
     height: 100%;
-    background:linear-gradient( rgb(230, 224, 224), rgb(255, 255, 255));
+    background:linear-gradient( rgb(244, 225, 225), rgb(236, 234, 234));
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -53,7 +55,7 @@
     color: black;
     font-size: 700;
     border:1px solid red;
-    opacity: .7;
+    opacity: .8;
     transition-duration: 500ms;
     color: blue;
 
@@ -120,8 +122,8 @@
 
 @media (min-width:1070px) {
     .pageImg{
-        width:53em;
-        height:30em;
+        width:58em;
+        height:35em;
         opacity: 1;
     }
 
@@ -132,4 +134,24 @@
     .item{
         height: auto;
     }
+}
+
+@media (min-width:1300px) {
+    .pageImg{
+        width:70em;
+        height:45em
+    }
+
+    .item span{
+        font-size: 1.5em;
+    }
+
+    .item p{
+        font-size: 1.5em;
+    }
+
+    .icons img{
+        font-size: 1.5em;
+    }
+
 }
