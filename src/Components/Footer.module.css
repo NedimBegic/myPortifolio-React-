@@ -20,16 +20,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: .2em;
+    padding: .3em;
     align-items: center;
-    height: 70%;
+    height:2em;
     transition-duration: 500ms;
     opacity: .8;
 }
 
 .box:hover{
     background:rgb(139, 136, 136);
-    color: blac;
     opacity: 1;
 }
 
@@ -39,7 +38,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height:2em
+    height:2em;
+    transition-duration: 500ms;
+}
+
+.box a:hover{
+    color: black;
+    font-weight: bold;
+
 }
 
 .no{
@@ -67,16 +73,20 @@
 
 }
 
-@media (min-width:1070px) {
+@media (min-width:1280px) {
     .box span{
         display: block;
     }
 
     .footerAll img{
-        width:4em;
+        width:7em;
+    }
+
+    .box{
+        height:7em
     }
 
     .box a{
-        font-size: 1.3em;
+        font-size: 1.7em;
     }
 }

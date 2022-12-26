@@ -15,8 +15,8 @@
 }
 
 .pageImg{
-    width:13em;
-    height:13em;
+    width:80%;
+    height:47%;
     margin-top: 0em;
     border-radius: 10px;
     background: rgb(0, 0, 0,1);
@@ -24,13 +24,13 @@
 
 .pageImg>img{
     width:100%;
-    height: 13em;
+    height: 100%;
     border-radius: 10px;
 }
 
 .links{
     width:70%;
-    height:2.4em;
+    height:2.3em;
     max-width: 50em;
     display: flex;
     justify-content: space-around;
@@ -39,19 +39,32 @@
 
 }
 
-.links a {
+.links>a {
     text-decoration: none;
-    width:5em;
-    background:linear-gradient( rgb(207, 201, 201), rgb(244, 224, 224));
+    width:35%;
+    max-width: 9em;
+    height: 100%;
+    background:linear-gradient( rgb(230, 224, 224), rgb(255, 255, 255));
     border-radius: 10px;
-    text-align: center;
-    font-weight: 700;
-    border:1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    font-size: 700;
+    border:1px solid red;
     opacity: .7;
+    transition-duration: 500ms;
+    color: blue;
 
 }
 
-.linkg a:hover{
+.links>a+a{
+    color: green;
+    
+}
+
+.links a:hover{
     opacity: 1;
     background: linear-gradient(white, rgb(218, 210, 210));
 }
@@ -64,7 +77,7 @@
 }
 
 .icons>img{
-    width:2em;
+    width:2.5em;
     opacity: .8;
     margin-bottom: 1em;
     margin-right: .6em;

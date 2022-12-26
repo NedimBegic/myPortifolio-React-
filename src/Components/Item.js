@@ -7,7 +7,7 @@ const Item = props => {
 
     return (
         <div className={style.item}>
-            <h2>My Work</h2>
+            <h2 id='work'>My Work</h2>
             <h4>{props.list[i].name}</h4>
             <div className={style.pageImg}>
                 <img src={props.list[i].img} alt="" />

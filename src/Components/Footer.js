@@ -17,7 +17,7 @@ const Footer = props => {
                     </a>
                 </div>
                 <div className={styles.box}>
-                    <a href="#">
+                    <a href="#work">
                         <span>💼</span>
                         <span className={styles.no}>My Work</span>
                     </a>
