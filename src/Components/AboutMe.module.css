@@ -174,4 +174,8 @@ h5{
     flex-direction: row;
    }
 
+   h5{
+    font-size: 200%;
+   }
+
 }
