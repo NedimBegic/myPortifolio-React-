@@ -12,6 +12,9 @@ const App = props => {
   return (
     <Main>
       <Card className={styles.card}>
+        <div className={styles.procentage}>
+
+        </div>
         <AboutMe />
         <Work />
         <Connect />

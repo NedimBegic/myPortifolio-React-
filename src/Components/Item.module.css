@@ -12,6 +12,7 @@
 
 .item h4{
     margin-top: .7em;
+    margin-bottom: .6em;
 }
 
 .pageImg{
@@ -31,7 +32,7 @@
 
 .links{
     width:70%;
-    height:2.3em;
+    height:1.8em;
     max-width: 50em;
     display: flex;
     justify-content: space-around;
@@ -46,7 +47,7 @@
     width:35%;
     max-width: 9em;
     height: 100%;
-    background:linear-gradient( rgb(244, 225, 225), rgb(236, 234, 234));
+    background:linear-gradient( rgb(194, 176, 176), rgb(243, 236, 236));
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -55,9 +56,10 @@
     color: black;
     font-size: 700;
     border:1px solid red;
-    opacity: .8;
+    opacity: 1;
     transition-duration: 500ms;
     color: blue;
+    margin-top: .5em;
 
 }
 
@@ -142,6 +144,9 @@
         height:45em
     }
 
+    .links a{
+        opacity: .8;
+    }
     .item span{
         font-size: 1.5em;
     }

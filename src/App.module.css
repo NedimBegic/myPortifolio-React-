@@ -8,6 +8,16 @@
     height:8vh;
 }
 
+.procentage{
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 1%;
+    width:.5px;
+    height: 100%;
+    border: 1px dotted white;
+}
+
 @media (min-width:560px) {
     .footer{
         height: 95vh;
