@@ -19,8 +19,7 @@ const Connect = props => {
                 </div>
             </div>
             <img className={styles.bug} src={gif} alt="bug" />
-            {/*             <div className={styles.road}></div>
- */}        </div>
+        </div >
     );
 };
 

@@ -7,13 +7,9 @@
     border: 1px solid white;
     background: #333;
     opacity: .9;
-    --length:0%;
 
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
-
-
-

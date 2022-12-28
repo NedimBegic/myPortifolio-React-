@@ -1,0 +1,43 @@
+.scrollBar{
+    width: 1px;
+    height:90%;
+    background-color: transparent;
+    position: absolute;
+    top:0;
+    right:5%;
+    bottom:1em;
+    z-index: 5;
+}
+
+.fill{
+    position: relative;
+    width: 100%;
+    border: 1px dotted white;
+    background-color: wheat;
+}
+
+.spider{
+    object-fit: fill;
+    width:2em;
+    position: absolute;
+    right: -16px;
+    cursor: pointer;
+   
+}
+
+@media (min-width:560px) {
+    .scrollBar{
+        right:3%;
+    }
+}
+
+@media (min-width:1300px) {
+    .spider{
+        width:4em;
+        right:-32px
+    }
+
+    .scrollBar{
+        right:2%;
+    }
+}
