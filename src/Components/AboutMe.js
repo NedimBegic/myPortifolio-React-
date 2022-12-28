@@ -43,7 +43,7 @@ const AboutMe = props => {
                     </div>
                     <div>
                         <a href="https://codepen.io/your-work/" target='_blank'> <img src={codepen} alt="codepen" /></a>
-                        <a href="#" target='_blank'><img src={portfolio} alt="portfolio"/></a>
+                        <a href="https://github.com/NedimBegic/myPortifolio-React-/tree/main" target='_blank'><img src={portfolio} alt="portfolio"/></a>
                     </div>
                 </div>
             </div>

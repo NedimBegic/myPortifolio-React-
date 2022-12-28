@@ -22,3 +22,9 @@
         margin-right: .3em;
     }
 }
+
+@media (min-width:1300px) {
+    *{
+        font-size: 95%;
+    }
+}
