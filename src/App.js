@@ -17,6 +17,7 @@ const App = props => {
       const height = e.target.scrollHeight - e.target.clientHeight;
       const scrolled = (winScroll / height) *100;
       setScrollTop(scrolled);
+     
   }
 
   return (

@@ -4,7 +4,7 @@
     background-color: transparent;
     position: absolute;
     top:0;
-    right:5%;
+    right:7%;
     bottom:1em;
     z-index: 5;
 }
@@ -12,8 +12,8 @@
 .fill{
     position: relative;
     width: 100%;
-    border: 1px dotted white;
-    background-color: wheat;
+    border: 1px dotted rgb(34, 32, 32);
+    background-color: rgb(174, 154, 120);
 }
 
 .spider{

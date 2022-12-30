@@ -39,12 +39,12 @@ const Work = props => {
         }
     }
     let nasaApi = new List ('Nasa Api', nasa, 'https://my-nasa-api.netlify.app/', 'https://github.com/NedimBegic/nasa-api', 'block', 'none', 'none', 'none', 'none', 'none', 'block', 'Learning about using APIs where the user types in the date and gets a photo and description of that day from NASA.');
-    let tikTakToe = new List ('Tik-Tak-Toe', tiktaktoe, 'https://tik-tak-toe-myversion.netlify.app/', 'https://github.com/NedimBegic/Tik-Tak-Toe', 'block', 'none', 'none', 'none', 'none', 'none', 'block', 'My version of the game where players can choose their sign');
+    let tikTakToe = new List ('Tik-Tak-Toe', tiktaktoe, 'https://tik-tak-toe-myversion.netlify.app/', 'https://github.com/NedimBegic/Tik-Tak-Toe', 'block', 'none', 'none', 'none', 'none', 'none', 'block', 'My version of the game where players can choose their own sign');
     let bankacc = new List ('Bank account', bank, 'https://frontentd-test-make-account.netlify.app/', 'https://github.com/NedimBegic/Bank-accaunt--frontend-test','block', 'none', 'none', 'none', 'none', 'none', 'block', 'A front-end junior test from made in Figma that I did for practice.');
     let gadgets = new List ('Gadgets', gadget, 'https://gadgetsweb.netlify.app/', 'https://github.com/NedimBegic/gadgets', 'block', 'none', 'none', 'none', 'none', 'none', 'block', 'Practice functionality: stopwatch, clock, calculater, word counter, background changer, screen saver, themes.');
     let addTask = new List ('First React project', task, 'https://react-todo123.netlify.app/', 'https://github.com/NedimBegic/React-todoList', 'none', 'block', 'none', 'none', 'none', 'none', 'none', 'First practice with react by building a Todo list.');
     let expense = new List ('Expense tracker', expenses, 'https://expand-tracker.netlify.app/', 'https://github.com/NedimBegic/Expense-tracker', 'none', 'block', 'none', 'none', 'none', 'none', 'none', 'Practice lifting state up and rendering components with React.');
-    let report = new List ('Mining Report', mining, 'https://report123.netlify.app/', 'https://github.com/NedimBegic/miningReport', 'block', 'none', 'none', 'none', 'none', 'none', 'none', 'Dynamic tables, storing info in local storage, adding notes and images, print in pdf. Web app for Mining engineers at Adriatic Metals');
+    let report = new List ('Mining Report', mining, 'https://report123.netlify.app/', 'https://github.com/NedimBegic/miningReport', 'block', 'none', 'none', 'none', 'none', 'none', 'none', 'Dynamic tables, storing info in local storage, adding notes and images, print in pdf. This is the demo version.');
 
     const list = [report, expense, addTask, gadgets, bankacc, tikTakToe, nasaApi];
 
