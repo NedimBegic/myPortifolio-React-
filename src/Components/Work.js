@@ -8,6 +8,7 @@ import gadget from '../images/gadgets.png';
 import task from '../images/task.png';
 import expenses from '../images/expenses.png';
 import mining from '../images/mining.png';
+import shoppingImg from '../images/shopping.png'
 
 const Work = props => {
     const [index, setIndex] = useState(0);
@@ -45,8 +46,8 @@ const Work = props => {
     let addTask = new List ('First React project', task, 'https://react-todo123.netlify.app/', 'https://github.com/NedimBegic/React-todoList', 'none', 'block', 'none', 'none', 'none', 'none', 'none', 'First practice with react by building a Todo list.');
     let expense = new List ('Expense tracker', expenses, 'https://expand-tracker.netlify.app/', 'https://github.com/NedimBegic/Expense-tracker', 'none', 'block', 'none', 'none', 'none', 'none', 'none', 'Practice lifting state up and rendering components with React.');
     let report = new List ('Mining Report', mining, 'https://report123.netlify.app/', 'https://github.com/NedimBegic/miningReport', 'block', 'none', 'none', 'none', 'none', 'none', 'none', 'Dynamic tables, storing info in local storage, adding notes and images, print in pdf. This is the demo version.');
-
-    const list = [report, expense, addTask, gadgets, bankacc, tikTakToe, nasaApi];
+    let shopping = new List('Fullstack Shopping list', shoppingImg, 'https://shoppinglist.up.railway.app/', 'https://github.com/NedimBegic/Fullstack---Shoping-List', 'block', 'none', 'none', 'block', 'block', 'block', 'none', 'MVC structure, EJS for render, learning basics of node, express, and MongoDB' )
+    const list = [expense, shopping, report, addTask, gadgets, bankacc, tikTakToe, nasaApi];
 
     return (
         <div className={style.frag}>
