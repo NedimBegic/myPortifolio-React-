@@ -35,7 +35,7 @@ const AboutMe = props => {
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
             </div>
             <div className={style.coding}>
-                <h4>Exampe of code:</h4>
+                <h4>Example of code:</h4>
                 <div className={style.code}>
                     <div>
                         <a href='https://github.com/NedimBegic' target='_blank'><img src={github} alt="github" /></a>
