@@ -11,6 +11,14 @@ html * {
   scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3,
+h4.h5,
+p {
+  font-family: "Roboto", "Noto Sans Display", sans-serif;
+}
+
 #root {
   height: auto;
   background: rgb(31, 29, 29);

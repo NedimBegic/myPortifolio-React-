@@ -46,6 +46,15 @@ const Item = (props) => {
           style={{ display: `${props.list[i].node}` }}
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
         />
+        <img
+          style={{
+            display: `${props.list[i].next}`,
+            backgroundColor: "white",
+            padding: ".1em",
+            borderRadius: "50%",
+          }}
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
+        />
         <i
           style={{ display: `${props.list[i].ex}` }}
           className="devicon-express-original-wordmark"

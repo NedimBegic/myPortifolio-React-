@@ -57,18 +57,26 @@ const Connect = (props) => {
     setErrorContent("Message sent!");
   };
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 0 }}
-      animate={{ opacity: 1, y: -30 }}
-      transition={{ duration: 1 }}
-      className={styles.all}
-    >
+    <div className={styles.all}>
       {mailValid && (
         <ErrorModule content={errorContent} hideModule={onHideError} />
       )}
       <div id="connect" className={styles.box}>
-        <h1>Connect</h1>
-        <div>
+        <motion.h1
+          initial={{ opacity: 0, y: 0 }}
+          whileInView={{ opacity: 1, y: -50 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+          className={styles.h1}
+        >
+          Connect
+        </motion.h1>
+        <motion.div
+          initial={{ opacity: 0, y: 0 }}
+          whileInView={{ opacity: 1, y: -50 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
           <a
             href="https://github.com/NedimBegic"
             target="_blank"
@@ -89,7 +97,7 @@ const Connect = (props) => {
             target="_blank"
             className={styles.in + " " + "fa fa-instagram" + " " + styles.icon}
           ></a>
-        </div>
+        </motion.div>
         <div>
           <i> 📱 - 064/4078534</i>
         </div>
@@ -111,7 +119,7 @@ const Connect = (props) => {
         <button type="submit">Send message</button>
       </form>
       <img className={styles.bug} src={gif} alt="bug" />
-    </motion.div>
+    </div>
   );
 };
 
