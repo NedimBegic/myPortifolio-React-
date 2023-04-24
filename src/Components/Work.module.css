@@ -1,47 +1,60 @@
-.frag{
-    height:auto;
-    width:100%;
-    border-bottom: 3px solid black;
-    display:flex;
-    position:relative;
+.workAll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frag {
+  height: auto;
+  width: 100%;
+  border-bottom: 3px solid black;
+  display: flex;
+  position: relative;
 }
 
-button{
-    width:3em;
-    height:3em;
-    position:absolute;
-    z-index: 1;
-    top:50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    text-align: center;
-    border: none;
-    font-weight: bolder;
-    opacity: .7;
-    background-color: black;
-    color: white;
-
+h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  border-bottom: 4px solid #961c23;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 0em 1em 0.2em;
 }
 
-button:hover{
-    opacity: 1;
+button {
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  text-align: center;
+  border: none;
+  font-weight: bolder;
+  opacity: 0.7;
+  background-color: black;
+  color: white;
 }
 
-.rightButton{
-    right:0;
+button:hover {
+  opacity: 1;
 }
 
-@media (min-width:1070px) {
-    button{
-        width:5em;
-        height:5em;
-    }
+.rightButton {
+  right: 0;
+}
 
-    .leftButton{
-        left:6em;
-    }
+@media (min-width: 1070px) {
+  button {
+    width: 5em;
+    height: 5em;
+  }
 
-    .rightButton{
-        right:6em;
-    }
+  .leftButton {
+    left: 6em;
+  }
+
+  .rightButton {
+    right: 6em;
+  }
 }
